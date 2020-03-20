@@ -34,7 +34,7 @@ module.exports = {
                 ],
             },
             {
-                test: /\(.xml$/,
+                test: /\.xml$/,
                 use: [
                     'xml-loader',
                 ],
